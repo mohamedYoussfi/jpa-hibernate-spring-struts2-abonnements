@@ -1,0 +1,16 @@
+div.cadre{
+ border: 1px dotted gray;
+ padding: 10px;
+ margin: 10px; 
+}
+.table1 th{
+  border: 1px dotted gray;
+  padding: 10px;
+  background: pink;
+}
+.table1 td{
+  border: 1px dotted gray;
+  padding: 10px;
+  background: white;
+}
+

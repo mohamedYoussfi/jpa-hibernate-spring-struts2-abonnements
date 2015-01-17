@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="default" namespace="/" extends="struts-default">
+      <default-action-ref name="index"></default-action-ref>
+      <action name="index" class="org.sid.web.AbonnementAction" method="index">
+       <result name="success">views/Abonnements.jsp</result>
+      </action>
+      <action name="getSubForm" class="org.sid.web.AbonnementAction" method="getSubForm">
+        <result name="success">views/SubForm.jsp</result>
+      </action>
+      <action name="save" class="org.sid.web.AbonnementAction" method="save">
+        <result name="success">views/Abonnements.jsp</result>
+      </action>
+    </package>
+</struts>
